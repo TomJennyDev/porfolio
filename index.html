@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>port</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./phonering/phonering.css" />
+    <link rel="stylesheet" href="./styled/styles.css" />
+    <link rel="stylesheet" href="./styled/responsive.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navBar">
+        <div class="logo">
+          <img src="./img/logo.png" alt="logo" />
+        </div>
+        <ul class="mainNav">
+          <li><a data-scroll href="#">Home</a></li>
+          <li><a data-scroll href="#about">About</a></li>
+          <li><a data-scroll href="#project">Project</a></li>
+          <li><a data-scroll href="#skill">Skills</a></li>
+          <li><a data-scroll href="#contact">Contact</a></li>
+        </ul>
+        <a class="btn btn-gradient-primary btn-menu">CV</a>
+        <div class="nav-ham">
+          <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="80">
+            <path
+              class="line top"
+              d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40"
+            />
+            <path class="line middle" d="m 30,50 h 40" />
+            <path
+              class="line bottom"
+              d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40"
+            />
+          </svg>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="carousel container glass extended" id="carousel">
+        <div class="col">
+          <div class="carousel-intro">
+            <div class="text">
+              <h2
+                data-aos="fade-left"
+                data-aos-offset="100"
+                data-aos-delay="1000"
+                data-aos-duration="500"
+              >
+                My Name is
+              </h2>
+              <h1
+                data-aos="fade-left"
+                data-aos-offset="100"
+                data-aos-delay="2000"
+                data-aos-duration="1000"
+                class="hightlight name"
+              >
+                Tom Jenny
+              </h1>
+              <h1
+                data-aos="fade-left"
+                data-aos-offset="100"
+                data-aos-delay="2500"
+                data-aos-duration="1000"
+                class="hightlight job"
+              >
+                I'm a Web Developer
+              </h1>
+            </div>
+            <div
+              data-aos="zoom-in"
+              data-aos-offset="100"
+              data-aos-delay="3000"
+              data-aos-duration="1000"
+            >
+              <a class="btn btn-gradient-primary">Git Hub</a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col"
+          data-aos="fade-right"
+          data-aos-offset="100"
+          data-aos-delay="2000"
+          data-aos-duration="1000"
+        >
+          <div class="carousel-chatbox glass"></div>
+          <div class="carousel-picture">
+            <a class="person"><img src="./img/person.png" alt="person" /></a>
+          </div>
+          <div
+            data-aos="zoom-in"
+            data-aos-offset="100"
+            data-aos-delay="3000"
+            data-aos-duration="3000"
+            class="carousel-phone-icon"
+          >
+            <div
+              class="phonering-alo-phone phonering-alo-green phonering-alo-show"
+              id="phonering-alo-phoneIcon"
+            >
+              <div class="phonering-alo-ph-circle"></div>
+              <div class="phonering-alo-ph-circle-fill"></div>
+              <a href="tel:+8768034960" class="pps-btn-img" title="Liên hệ">
+                <div class="phonering-alo-ph-img-circle"></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        data-aos="fade-right"
+        data-aos-offset="150"
+        data-aos-delay="300"
+        data-aos-duration="600"
+        class="about container glass"
+        id="about"
+      >
+        <div>
+          <span class="ribbon1">
+            <span>About Me</span>
+          </span>
+        </div>
+        <div class="col">
+          <div class="avatar">
+            <img
+              src="https://pbs.twimg.com/profile_images/1299844050208555008/7wMQaJRA_400x400.jpg"
+              data-aos="zoom-in"
+              data-aos-offset="100"
+              data-aos-delay="1000"
+              data-aos-duration="600"
+            />
+          </div>
+        </div>
+        <div class="col">
+          <div
+            class="about-intro glass"
+            data-aos="flip-down"
+            data-aos-offset="100"
+            data-aos-delay="1500"
+            data-aos-duration="600"
+          >
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+              natus voluptate eos laudantium distinctio quisquam aliquam,
+              numquam impedit veritatis. Corporis quibusdam unde debitis vitae
+              ullam sunt perferendis error dolor fugit? Rem, quia molestiae
+              inventore quibusdam, possimus in explicabo facilis laudantium odit
+              repudiandae eaque enim voluptatum eum, expedita deleniti officia?
+            </p>
+          </div>
+          <div
+            class="about-hobby glass"
+            data-aos="flip-down"
+            data-aos-offset="100"
+            data-aos-delay="1800"
+            data-aos-duration="600"
+          >
+            <span class="about-hobby-icon"
+              ><i class="fa-solid fa-person-running"></i
+            ></span>
+            <span class="about-hobby-icon"
+              ><i class="fa-solid fa-music"></i
+            ></span>
+            <span class="about-hobby-icon"
+              ><i class="fa-solid fa-clapperboard"></i
+            ></span>
+            <span class="about-hobby-icon"
+              ><i class="fa-solid fa-gamepad"></i
+            ></span>
+            <span class="about-hobby-icon"
+              ><i class="fa-solid fa-plane"></i
+            ></span>
+          </div>
+        </div>
+      </section>
+      <section
+        data-aos="fade-left"
+        data-aos-offset="100"
+        data-aos-delay="300"
+        data-aos-duration="600"
+        class="project container glass"
+        id="project"
+      >
+        <div>
+          <span class="ribbon1 ribbon-left">
+            <span>My Project</span>
+          </span>
+        </div>
+        <div class="project-content">
+          <div
+            class="glass project-item"
+            data-aos="zoom-in"
+            data-aos-offset="10"
+            data-aos-delay="600"
+            data-aos-duration="3000"
+          >
+            <div class="header">
+              <a hreft="#"><i class="fa-brands fa-github"></i></a>
+              <a hreft="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+            <div class="body">
+              <img
+                src="https://themewagon.com/wp-content/uploads/2020/12/eflyer.jpg"
+              />
+            </div>
+            <div class="footer">
+              <span>HTML </span>
+              <span>Javascript</span>
+              <span>CSS</span>
+            </div>
+          </div>
+          <div
+            class="glass project-item"
+            data-aos="zoom-in"
+            data-aos-offset="10"
+            data-aos-delay="700"
+            data-aos-duration="3000"
+          >
+            <div class="header">
+              <a hreft="#"><i class="fa-brands fa-github"></i></a>
+              <a hreft="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+            <div class="body">
+              <img
+                src="https://themewagon.com/wp-content/uploads/2020/11/ogani-1.jpg"
+              />
+            </div>
+            <div class="footer">
+              <span>HTML </span>
+              <span>Javascript</span>
+              <span>CSS</span>
+            </div>
+          </div>
+          <div
+            class="glass project-item"
+            data-aos="zoom-in"
+            data-aos-offset="10"
+            data-aos-delay="800"
+            data-aos-duration="3000"
+          >
+            <div class="header">
+              <a hreft="#"><i class="fa-brands fa-github"></i></a>
+              <a hreft="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+            <div class="body">
+              <img
+                src="https://themewagon.com/wp-content/uploads/2018/10/sportsfit-1.jpg"
+              />
+            </div>
+            <div class="footer">
+              <span>HTML </span>
+              <span>Javascript</span>
+              <span>CSS</span>
+            </div>
+          </div>
+          <div
+            class="glass project-item"
+            data-aos="zoom-in"
+            data-aos-offset="10"
+            data-aos-delay="900"
+            data-aos-duration="3000"
+          >
+            <div class="header">
+              <a hreft="#"><i class="fa-brands fa-github"></i></a>
+              <a hreft="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+            <div class="body">
+              <img
+                src="https://10web.io/wp-content/uploads/2020/04/desktop-1.png"
+              />
+            </div>
+            <div class="footer">
+              <span>HTML </span>
+              <span>Javascript</span>
+              <span>CSS</span>
+            </div>
+          </div>
+          <div
+            class="glass project-item"
+            data-aos="zoom-in"
+            data-aos-offset="10"
+            data-aos-delay="1000"
+            data-aos-duration="3000"
+          >
+            <div class="header">
+              <a hreft="#"><i class="fa-brands fa-github"></i></a>
+              <a hreft="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+            <div class="body">
+              <img
+                src="https://freemiumdownload.com/wp-content/uploads/edd/2019/04/57570204_809621992770291_6060133322044997632_n-1.jpg"
+              />
+            </div>
+            <div class="footer">
+              <span>HTML </span>
+              <span>Javascript</span>
+              <span>CSS</span>
+            </div>
+          </div>
+          <div
+            class="glass project-item"
+            data-aos="zoom-in"
+            data-aos-offset="10"
+            data-aos-delay="1100"
+            data-aos-duration="3000"
+          >
+            <div class="header">
+              <a hreft="#"><i class="fa-brands fa-github"></i></a>
+              <a hreft="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+            <div class="body">
+              <img
+                src="https://templatemag.com/wp-content/uploads/pro-business-website-template.jpg"
+              />
+            </div>
+            <div class="footer">
+              <span>HTML</span>
+              <span>Javascript</span>
+              <span>CSS</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        data-aos="fade-right"
+        data-aos-offset="150"
+        data-aos-delay="300"
+        data-aos-duration="600"
+        class="skill container glass"
+        id="skill"
+      >
+        <div>
+          <span class="ribbon1">
+            <span>Skill</span>
+          </span>
+        </div>
+        <div class="skill-content">
+          <div
+            class="skill-item skill-webdev glass"
+            data-aos="fade-right"
+            data-aos-offset="50"
+            data-aos-delay="1000"
+            data-aos-duration="800"
+          >
+            <span class="ribbon3">Web Developer</span>
+            <div id="skill-progressbar">
+              <a class="skill-progressbar-img">
+                <img src="./img/brands/html5.png" />
+
+                <div
+                  class="ldBar"
+                  data-value="85"
+                  data-stroke="data:ldbar/res,gradient(0,1,#7928ca,#ff0080)"
+                ></div>
+              </a>
+            </div>
+            <div id="skill-progressbar">
+              <a class="skill-progressbar-img">
+                <img src="./img/brands/css3.png" />
+                <div
+                  class="ldBar"
+                  data-value="95"
+                  data-stroke="data:ldbar/res,gradient(0,1,#7928ca,#ff0080)"
+                ></div>
+              </a>
+            </div>
+            <div id="skill-progressbar">
+              <a class="skill-progressbar-img">
+                <img src="./img/brands/javascript.png" />
+                <div
+                  class="ldBar"
+                  data-value="95"
+                  data-stroke="data:ldbar/res,gradient(0,1,#7928ca,#ff0080)"
+                ></div>
+              </a>
+            </div>
+            <div id="skill-progressbar">
+              <a class="skill-progressbar-img">
+                <img src="./img/brands/typescript.png" />
+                <div
+                  class="ldBar"
+                  data-value="95"
+                  data-stroke="data:ldbar/res,gradient(0,1,#7928ca,#ff0080)"
+                ></div>
+              </a>
+            </div>
+          </div>
+          <div
+            class="skill-item skill-stack glass"
+            data-aos="fade-right"
+            data-aos-offset="50"
+            data-aos-delay="1200"
+            data-aos-duration="800"
+          >
+            <span class="ribbon3">Software Stacks</span>
+            <div id="skill-progressbar">
+              <a class="skill-progressbar-img">
+                <img src="./img/brands/mongodb.png" />
+                <div
+                  class="ldBar"
+                  data-value="95"
+                  data-stroke="data:ldbar/res,gradient(0,1,#7928ca,#ff0080)"
+                ></div>
+              </a>
+            </div>
+            <div id="skill-progressbar">
+              <a class="skill-progressbar-img">
+                <img src="./img/brands/express.png" />
+                <div
+                  class="ldBar"
+                  data-value="95"
+                  data-stroke="data:ldbar/res,gradient(0,1,#7928ca,#ff0080)"
+                ></div>
+              </a>
+            </div>
+            <div id="skill-progressbar">
+              <a class="skill-progressbar-img">
+                <img src="./img/brands/react.png" />
+                <div
+                  class="ldBar"
+                  data-value="95"
+                  data-stroke="data:ldbar/res,gradient(0,1,#7928ca,#ff0080)"
+                ></div>
+              </a>
+            </div>
+            <div id="skill-progressbar">
+              <a class="skill-progressbar-img">
+                <img src="./img/brands/nodejs.png" />
+                <div
+                  class="ldBar"
+                  data-value="95"
+                  data-stroke="data:ldbar/res,gradient(0,1,#7928ca,#ff0080)"
+                ></div>
+              </a>
+            </div>
+          </div>
+          <div
+            class="skill-item skill-stack glass"
+            data-aos="fade-right"
+            data-aos-offset="50"
+            data-aos-delay="1400"
+            data-aos-duration="800"
+          >
+            <span class="ribbon3">Other Tools</span>
+            <div id="skill-progressbar">
+              <a class="skill-progressbar-img">
+                <img src="./img/brands/git.png" />
+                <div
+                  class="ldBar"
+                  data-value="95"
+                  data-stroke="data:ldbar/res,gradient(0,1,#7928ca,#ff0080)"
+                ></div>
+              </a>
+            </div>
+            <div id="skill-progressbar">
+              <a class="skill-progressbar-img">
+                <img src="./img/brands/github.png" />
+                <div
+                  class="ldBar"
+                  data-value="95"
+                  data-stroke="data:ldbar/res,gradient(0,1,#7928ca,#ff0080)"
+                ></div>
+              </a>
+            </div>
+            <div id="skill-progressbar">
+              <a class="skill-progressbar-img">
+                <img src="./img/brands/visual-studio-code.png" />
+                <div
+                  class="ldBar"
+                  data-value="95"
+                  data-stroke="data:ldbar/res,gradient(0,1,#7928ca,#ff0080)"
+                ></div>
+              </a>
+            </div>
+            <div id="skill-progressbar">
+              <a class="skill-progressbar-img">
+                <img src="./img/brands/figma.png" />
+                <div
+                  class="ldBar"
+                  data-value="95"
+                  data-stroke="data:ldbar/res,gradient(0,1,#7928ca,#ff0080)"
+                ></div>
+              </a>
+            </div>
+          </div>
+          <div
+            class="skill-item skill-stack glass"
+            data-aos="fade-right"
+            data-aos-offset="50"
+            data-aos-delay="1600"
+            data-aos-duration="800"
+          >
+            <span class="ribbon3">Others</span>
+            <div id="skill-progressbar">
+              <a class="skill-progressbar-img">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png"
+                />
+                <div
+                  class="ldBar"
+                  data-value="95"
+                  data-stroke="data:ldbar/res,gradient(0,1,#7928ca,#ff0080)"
+                ></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        data-aos="fade-up"
+        data-aos-offset="150"
+        data-aos-delay="300"
+        data-aos-duration="600"
+        class="contact container glass"
+        id="contact"
+      >
+        <div>
+          <span class="ribbon1">
+            <span>Contact</span>
+          </span>
+        </div>
+        <div class="contact-content">
+          <div class="contact-item contact-info">
+            <div
+              class="contact-map"
+              data-aos="zoom-in"
+              data-aos-offset="0"
+              data-aos-delay="1000"
+              data-aos-duration="600"
+            >
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.395449968841!2d106.70341181523611!3d10.780994062056365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f492b77f0cd%3A0xf24a9a1de6ad611d!2zMTUgTMOqIFRow6FuaCBUw7RuLCBC4bq_biBOZ2jDqSwgUXXhuq1uIDEsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1646613315368!5m2!1sen!2s"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+            <div
+              class="contact-info-detail"
+              data-aos="zoom-in"
+              data-aos-offset="0"
+              data-aos-delay="1200"
+              data-aos-duration="600"
+            >
+              <div>
+                <i class="fa-solid fa-location-dot"></i>
+                <span> 15 Le Thanh Ton, Ben Nghe Ward, District 1, HCM </span>
+              </div>
+              <div>
+                <i class="fa-solid fa-envelope"></i>
+                <span>tin.quachtrung@gmail.com </span>
+              </div>
+              <div>
+                <i class="fa-solid fa-mobile"></i>
+                <span>(+84) 768.034.960</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="contact-item contact-form"
+            data-aos="zoom-in"
+            data-aos-offset="0"
+            data-aos-delay="1400"
+            data-aos-duration="600"
+          >
+            <form
+              action="https://formsubmit.co/tin.quachtrung@gmail.com"
+              method="POST"
+            >
+              <div class="fields">
+                <div class="field name">
+                  <div>
+                    <i class="fa-solid fa-user"></i>
+                  </div>
+                  <div>
+                    <input
+                      class="glass"
+                      type="text"
+                      placeholder="Name"
+                      name="name"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="field email">
+                  <div>
+                    <i class="fa-solid fa-envelope"></i>
+                  </div>
+                  <div>
+                    <input
+                      class="glass"
+                      type="email"
+                      placeholder="Email"
+                      name="email"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="field textarea">
+                  <div>
+                    <i class="fa-solid fa-comment"></i>
+                  </div>
+                  <div>
+                    <textarea
+                      class="glass"
+                      cols="30"
+                      rows="10"
+                      placeholder="Message.."
+                      name="message"
+                      required
+                    >
+                    </textarea>
+                  </div>
+                </div>
+                <div class="field button-area">
+                  <div></div>
+                  <div>
+                    <button type="submit" class="btn btn-gradient-primary">
+                      Send Message
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer
+      data-aos="flip-up"
+      data-aos-offset="0"
+      data-aos-delay="1000"
+      data-aos-duration="1000"
+      class="container glass"
+    >
+      <div class="footer-content">
+        <div class="footer-social">
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="#"> <i class="fa-brands fa-facebook"></i></a>
+          <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+          <a href="#"> <i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"> <i class="fa-brands fa-dev"></i></a>
+        </div>
+        <p>© 2022 Tom Jenny</p>
+      </div>
+    </footer>
+    <a class="glass scroll-top hide" href="#" data-scroll
+      ><i class="fa-solid fa-circle-arrow-up"></i
+    ></a>
+    <script src="https://unpkg.com/sweet-scroll/sweet-scroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/1.1.0/progressbar.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./javascript/nanobar.min.js"></script>
+    <script type="module" src="./javascript/typingAnimation.js"></script>
+    <script type="module" src="./javascript/configTypeWriter.js"></script>
+    <script type="module" src="./javascript/loading-bar.js"></script>
+    <script type="module" src="./javascript/configProgressBar.js"></script>
+    <script type="module" src="./javascript/main.js"></script>
+  </body>
+</html>
